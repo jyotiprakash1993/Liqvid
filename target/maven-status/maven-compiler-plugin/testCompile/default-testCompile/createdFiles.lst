@@ -1,0 +1,3 @@
+tests\VerifySignInTest.class
+tests\BaseClass.class
+pages\VerifySignInPage.class

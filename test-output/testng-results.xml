@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15969" started-at="2017-02-27T11:15:38Z" finished-at="2017-02-27T11:15:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15969" started-at="2017-02-27T11:15:38Z" finished-at="2017-02-27T11:15:54Z">
+      <class name="tests.VerifySignInTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.VerifySignInTest@29774679]" name="beforeClass" is-config="true" duration-ms="9856" started-at="2017-02-27T16:45:38Z" finished-at="2017-02-27T16:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="VerifySignInPage()[pri:0, instance:tests.VerifySignInTest@29774679]" name="VerifySignInPage" duration-ms="6048" started-at="2017-02-27T16:45:48Z" finished-at="2017-02-27T16:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignInPage -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.VerifySignInTest@29774679]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-02-27T16:45:48Z" finished-at="2017-02-27T16:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.VerifySignInTest@29774679]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-02-27T16:45:54Z" finished-at="2017-02-27T16:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.VerifySignInTest@29774679]" name="afterClass" is-config="true" duration-ms="13" started-at="2017-02-27T16:45:54Z" finished-at="2017-02-27T16:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.VerifySignInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

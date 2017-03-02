@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38751" started-at="2017-02-28T09:33:16Z" finished-at="2017-02-28T09:33:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38751" started-at="2017-02-28T09:33:16Z" finished-at="2017-02-28T09:33:55Z">
+      <class name="tests.VerifySignInTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.VerifySignInTest@3498ed]" name="beforeClass" is-config="true" duration-ms="32625" started-at="2017-02-28T15:03:16Z" finished-at="2017-02-28T15:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.VerifySignInTest@3498ed]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-02-28T15:03:49Z" finished-at="2017-02-28T15:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifySignInPage()[pri:0, instance:tests.VerifySignInTest@3498ed]" name="VerifySignInPage" duration-ms="6032" started-at="2017-02-28T15:03:49Z" finished-at="2017-02-28T15:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignInPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.VerifySignInTest@3498ed]" name="afterMethod" is-config="true" duration-ms="5" started-at="2017-02-28T15:03:55Z" finished-at="2017-02-28T15:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.VerifySignInTest@3498ed]" name="afterClass" is-config="true" duration-ms="54" started-at="2017-02-28T15:03:55Z" finished-at="2017-02-28T15:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.VerifySignInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
