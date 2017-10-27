@@ -1,33 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15969" started-at="2017-02-27T11:15:38Z" finished-at="2017-02-27T11:15:54Z">
+  <suite name="Default suite" duration-ms="84580" started-at="2017-10-27T10:59:50Z" finished-at="2017-10-27T11:01:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15969" started-at="2017-02-27T11:15:38Z" finished-at="2017-02-27T11:15:54Z">
-      <class name="tests.VerifySignInTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.VerifySignInTest@29774679]" name="beforeClass" is-config="true" duration-ms="9856" started-at="2017-02-27T16:45:38Z" finished-at="2017-02-27T16:45:48Z">
+    <test name="Default test" duration-ms="84580" started-at="2017-10-27T10:59:50Z" finished-at="2017-10-27T11:01:15Z">
+      <class name="script.validdetailentry">
+        <test-method status="PASS" signature="openAppln()[pri:0, instance:script.validdetailentry@224edc67]" name="openAppln" is-config="true" duration-ms="44045" started-at="2017-10-27T16:29:50Z" finished-at="2017-10-27T16:30:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="VerifySignInPage()[pri:0, instance:tests.VerifySignInTest@29774679]" name="VerifySignInPage" duration-ms="6048" started-at="2017-02-27T16:45:48Z" finished-at="2017-02-27T16:45:54Z">
+        </test-method> <!-- openAppln -->
+        <test-method status="FAIL" signature="entry()[pri:0, instance:script.validdetailentry@224edc67]" name="entry" duration-ms="40471" started-at="2017-10-27T16:30:34Z" finished-at="2017-10-27T16:31:15Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[Element is not currently visible and so may not be interacted with
+Command duration or timeout: 62 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'TYSS-4F-051', ip: '10.10.14.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9f8d66e6-d78a-4f81-b6be-c8627ff0cff0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 62 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'TYSS-4F-051', ip: '10.10.14.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9f8d66e6-d78a-4f81-b6be-c8627ff0cff0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at script.validdetailentry.entry(validdetailentry.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'TYSS-4F-051', ip: '10.10.14.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/TYSS/AppData/Local/Temp/anonymous2991164486718948182webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/TYSS/AppData/Local/Temp/anonymous2991164486718948182webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/TYSS/AppData/Local/Temp/anonymous2991164486718948182webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/TYSS/AppData/Local/Temp/anonymous2991164486718948182webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/TYSS/AppData/Local/Temp/anonymous2991164486718948182webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifySignInPage -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.VerifySignInTest@29774679]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-02-27T16:45:48Z" finished-at="2017-02-27T16:45:48Z">
+        </test-method> <!-- entry -->
+        <test-method status="PASS" signature="closeAppln()[pri:0, instance:script.validdetailentry@224edc67]" name="closeAppln" is-config="true" duration-ms="0" started-at="2017-10-27T16:31:15Z" finished-at="2017-10-27T16:31:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.VerifySignInTest@29774679]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-02-27T16:45:54Z" finished-at="2017-02-27T16:45:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.VerifySignInTest@29774679]" name="afterClass" is-config="true" duration-ms="13" started-at="2017-02-27T16:45:54Z" finished-at="2017-02-27T16:45:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- tests.VerifySignInTest -->
+        </test-method> <!-- closeAppln -->
+      </class> <!-- script.validdetailentry -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
